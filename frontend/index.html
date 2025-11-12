@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task Priority Manager by</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="navbar">
+    <h1>🧠 Task Priority Manager By Dinagaran</h1>
+    <input id="apiBase" type="text" placeholder="Backend URL" value="http://127.0.0.1:8000">
+    <button id="reload">🔄 Reload</button>
+  </div>
+
+  <main class="dashboard">
+    <section class="form-card">
+      <h2>Create Task</h2>
+      <div class="form-group">
+        <input id="title" type="text" placeholder="Task title" />
+        <textarea id="description" placeholder="Description"></textarea>
+        <div class="flex">
+          <input id="priority" type="number" min="1" max="5" value="3" />
+          <select id="status">
+            <option value="PENDING">PENDING</option>
+            <option value="IN_PROGRESS">IN_PROGRESS</option>
+            <option value="DONE">DONE</option>
+          </select>
+        </div>
+        <input id="due_date" type="date" />
+        <button id="saveTask" class="primary-btn">Save Task</button>
+      </div>
+    </section>
+
+    <section class="task-list">
+      <h2>📋 All Tasks</h2>
+      <div id="tasksContainer" class="task-container">Loading...</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with ❤️ using FastAPI + Vanilla JS | Designed by Dinagaran & GPT-5</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1979aa1c-03c8-4454-8d54-21c93c09a3fb",
+    "title": "Finish project",
+    "description": "Complete FastAPI + Frontend integration",
+    "priority": 2,
+    "status": "PENDING",
+    "due_date": null,
+    "created_at": "2025-11-12T06:37:35.900452",
+    "updated_at": "2025-11-12T06:37:35.900668"
+  },
+  {
+    "id": "1c4a41e6-9ee5-4b85-b48b-0e0ea8aca906",
+    "title": "Finish project",
+    "description": "Complete FastAPI + Frontend integration",
+    "priority": 2,
+    "status": "PENDING",
+    "due_date": null,
+    "created_at": "2025-11-12T06:37:39.889121",
+    "updated_at": "2025-11-12T06:37:39.889131"
+  },
+  {
+    "id": "0a3667d4-bb66-4e82-853d-776cda6bb002",
+    "title": "study",
+    "description": "read ds books",
+    "priority": 5,
+    "status": "IN_PROGRESS",
+    "due_date": "2025-11-20",
+    "created_at": "2025-11-12T07:00:58.951798",
+    "updated_at": "2025-11-12T07:00:58.951835"
+  }
+]
